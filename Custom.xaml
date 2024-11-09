@@ -1,0 +1,16 @@
+﻿
+<local:MyCard Title="欢迎来到Future" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="24" HorizontalAlignment="Center"
+                    Text="FutureMC" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15" Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Width="150" Height="35" Margin="10"
+                        Text="进入Future服务器" EventType="启动游戏" EventData="\current|futuremct.icu" />
+        <local:MyButton Width="150" Height="35" Margin="10"
+                        Text="打开Future官网" EventType="打开网页" EventData="https://futuremct.icu" />
+    </StackPanel>
+</local:MyCard>
